@@ -13,7 +13,7 @@ html {
   block-size: 100%;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', 'Fira Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Fira Sans Condensed', Helvetica, Arial, sans-serif;
   font-size: 18px;
   background-color: #1b1919;
   display: flex;
@@ -61,7 +61,7 @@ ol {
   gap: 30px;
   flex-direction: row;
   align-items: flex-end;
-  margin: 333px 30px;
+  margin: 300px 30px;
 }
 
 .content__details {
@@ -78,6 +78,9 @@ ol {
 .content__list-container {
   height: 298px;
   overflow-y: scroll;
+  display: grid;
+  gap: 30px;
+  position: relative;
 }
 
 .title {
@@ -112,12 +115,6 @@ ol {
   gap: 30px;
 }
 
-.content__list-container {
-  display: grid;
-  gap: 30px;
-  position: relative;
-}
-
 .content__video-card {
   display: flex;
   flex-direction: row;
@@ -139,7 +136,7 @@ ol {
 }
 
 .content__video-card-description {
-  font-family: 'Fira Sans Condensed', 'Fira Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Fira Sans Condensed', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -152,7 +149,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-family: 'Fira Sans Condensed', 'Fira Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Fira Sans Condensed', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -243,7 +240,7 @@ ol {
   border-bottom: 1px solid #fff;
   background-color: transparent;
   appearance: none;
-  font-family: 'Fira Sans Condensed', 'Fira Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Fira Sans Condensed', Helvetica, Arial, sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: 100%;
@@ -286,7 +283,7 @@ ol {
 .button {
   border: 1px solid #fff;
   color: #fff;
-  font-family: 'Fira Sans Condensed', 'Fira Sans', Helvetica, Arial, sans-serif;
+  font-family: 'Fira Sans Condensed', Helvetica, Arial, sans-serif;
   background-color: transparent;
   height: 34px;
   font-weight: 700;
