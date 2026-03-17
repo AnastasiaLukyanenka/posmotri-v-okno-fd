@@ -61,7 +61,7 @@ ol {
   gap: 30px;
   flex-direction: row;
   align-items: flex-end;
-  margin: 133px 30px;
+  margin: 333px 30px;
 }
 
 .content__details {
@@ -98,6 +98,7 @@ ol {
   height: 386px;
   width: 711px;
   margin-bottom: 16px;
+  position: relative;
 }
 
 .result__video {
@@ -114,6 +115,7 @@ ol {
 .content__list-container {
   display: grid;
   gap: 30px;
+  position: relative;
 }
 
 .content__video-card {
@@ -315,12 +317,4 @@ ol {
 
 .button:has(:focus-visible) {
   outline: 1px solid #fff;
-}
-
-.result__video-container {
-  position: relative;
-}
-
-.content__list-container {
-  position: relative;
 }
